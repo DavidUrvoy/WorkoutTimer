@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3091ff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.david.workoutcoach.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TableLayout
+        android:id="@+id/tableExercices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0, 1">
+
+        <TableRow>
+
+            <TextView
+                style="@style/cellExercises"
+                android:id="@+id/exercice1"
+                android:text="@string/libelleExercice1" />
+
+            <TextView
+                style="@style/cellExercises"
+                android:id="@+id/exercice2"
+                android:text="@string/libelleExercice2" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/cellExercises"
+                android:id="@+id/exercice3"
+                android:text="@string/libelleExercice3" />
+
+            <TextView
+                style="@style/cellExercises"
+                android:id="@+id/exercice4"
+                android:text="@string/libelleExercice4" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/cellExercises"
+                android:id="@+id/exercice5"
+                android:text="@string/libelleExercice5" />
+
+            <TextView
+                style="@style/cellExercises"
+                android:id="@+id/exercice6"
+                android:text="@string/libelleExercice6" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/cellExercises"
+                android:id="@+id/exercice7"
+                android:text="@string/libelleExercice7" />
+
+            <TextView
+                style="@style/cellExercises"
+                android:id="@+id/exercice8"
+                android:text="@string/libelleExercice8" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonTimer"
+        android:layout_below="@id/tableExercices"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            style="@style/series"
+            android:id="@+id/serie1"
+            android:text="1" />
+
+        <TextView
+            style="@style/series"
+            android:id="@+id/serie2"
+            android:text="2" />
+
+        <TextView
+            style="@style/series"
+            android:id="@+id/serie3"
+            android:text="3" />
+
+        <TextView
+            style="@style/series"
+            android:id="@+id/serie4"
+            android:text="4" />
+
+        <TextView
+            style="@style/series"
+            android:id="@+id/serie5"
+            android:text="5" />
+
+        <TextView
+            style="@style/series"
+            android:id="@+id/serie6"
+            android:text="6" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/round_button"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

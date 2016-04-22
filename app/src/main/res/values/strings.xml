@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WorkoutTimer</string>
+    <string name="action_settings">Settings</string>
+    <string name="libelleExercice1">Exercice 1</string>
+    <string name="libelleExercice2">Exercice 2</string>
+    <string name="libelleExercice3">Exercice 3</string>
+    <string name="libelleExercice4">Exercice 4</string>
+    <string name="libelleExercice5">Exercice 5</string>
+    <string name="libelleExercice6">Exercice 6</string>
+    <string name="libelleExercice7">Exercice 7</string>
+    <string name="libelleExercice8">Exercice 8</string>
+</resources>
